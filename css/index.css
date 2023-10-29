@@ -10,3 +10,11 @@
     --color4: #111111;
     --color5: #FFFFFF;
 }
+
+.right-bar{
+    margin-right: -35%;
+}
+.nav-icon{
+    margin-left: 10px;
+    margin-top: 4px;
+}
