@@ -9,6 +9,7 @@
 .nav2 .btn-light{
     margin-left: 10px;
     margin-right: 10px;
+    background-color: rgba(128, 128, 128, 0.131);
 }
 
 @media screen and (max-width: 900px) {
@@ -26,5 +27,112 @@
     .nav2 button{
         width: 100%;
         margin: 0;
+    }
+}
+
+/* home section  */
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: #DDF2E4;
+}
+.home .container-fluid{
+    width: 50%;
+}
+.home h1{
+    font-size: 70px;
+    font-weight: bolder;
+    padding-top: 17%;
+}
+.home p{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-weight: 500;
+    width: 80%;
+    margin: auto;
+}
+.home .p2{
+    width: 100%;
+    font-weight: 500;
+}
+.d-logo{
+    width: 70%;
+    margin: auto;
+}
+.d-img{
+    width: 12%;
+}
+
+@media screen and (max-width: 400px){
+    .home{
+        height: 160vh;
+    }
+    .home .container-fluid{
+        width: 100%;
+    }
+    .home h1{
+        font-size: 30px;
+        padding-top: 30%;
+    }
+    .home p{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .home button{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .d-logo{
+        width: 100%;
+    }
+    .d-img{
+        width: 30%;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px){
+    .home{
+        height: 170vh;
+    }
+    .home .container-fluid{
+        width: 100%;
+    }
+    .home h1{
+        font-size: 50px;
+        padding-top: 15%;
+    }
+    .home p{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .home button{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .d-logo{
+        width: 100%;
+    }
+    .d-img{
+        width: 23%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px){
+    .home{
+        height: 170vh;
+    }
+    .home .container-fluid{
+        width: 100%;
+    }
+    .home h1{
+        font-size: 70px;
+        padding-top: 15%;
+    }
+    .home p{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .d-img{
+        width: 23%;
     }
 }
