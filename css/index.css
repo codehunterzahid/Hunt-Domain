@@ -3,18 +3,28 @@
     margin: 0;
 }
 
-:root{
-    --color1: #00838C;
-    --color2: #09757A;
-    --color3: #D8EFEF;
-    --color4: #111111;
-    --color5: #FFFFFF;
+.logo{
+    height: 3vh;
+}
+.nav2 .btn-light{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.right-bar{
-    margin-right: -35%;
+@media screen and (max-width: 900px) {
+    .first-nav{
+        display: none;
+    }
+    .nav2 .hr{
+        display: none;
+    }
+    .nav2 .btn-light{
+        margin: 20px 0 20px 0;
+    }
 }
-.nav-icon{
-    margin-left: 10px;
-    margin-top: 4px;
+@media screen and (max-width: 500px){
+    .nav2 button{
+        width: 100%;
+        margin: 0;
+    }
 }
