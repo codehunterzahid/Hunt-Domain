@@ -68,7 +68,7 @@ body{
 
 @media screen and (max-width: 400px){
     .home{
-        height: 160vh;
+        height: 110vh;
     }
     .home .container-fluid{
         width: 100%;
@@ -222,7 +222,7 @@ body{
 
 @media screen and (max-width:400px){
     .practice{
-        height: 200vh;
+        height: 120vh;
     }
     .p-text{
         width: 100%;
@@ -239,7 +239,7 @@ body{
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 140vh;
+        height: 100vh;
     }
     .p-col1, .p-col2{
         width: 100%;
@@ -351,7 +351,7 @@ body{
 @media screen and (max-width: 400px){
     .rows-section{
         width: 100%;
-        height: 330vh;
+        height: 270vh;
     }
     .t-block{
         display: flex;
@@ -449,7 +449,7 @@ body{
 @media screen and (max-width: 400px){
     .product{
         width: 100%;
-        height: 120vh;
+        height: 90vh;
     }
     .p-text{
         width: 100%;
@@ -563,7 +563,7 @@ body{
 @media screen and (max-width: 400px){
     .developer{
         width: 100vw;
-        height: 180vh;
+        height: 140vh;
     }
     .container-large{
         display: none;
@@ -731,7 +731,7 @@ body{
 
 @media screen and (max-width: 400px){
     .tools{
-        height: 80vh;
+        height: 50vh;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
         margin-top: 5%;
     }
@@ -826,5 +826,6 @@ body{
     }
     .social-footer{
         width: 100%;
+        padding: 5%;
     }
 }
