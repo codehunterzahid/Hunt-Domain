@@ -33,3 +33,20 @@
 0px 25px 20px -20px rgba(0, 0, 0, 0.083),
 -25px 0px 20px -20px rgba(0, 0, 0, 0.083);
   }
+
+  @media screen and (max-width:400px){
+    .s-page{
+        width: 100%;
+    }
+  }
+  @media (min-width:400px) and (max-width:600px){
+    .s-page{
+        width: 80%;
+    }
+  }
+  
+  @media (min-width:600px) and (max-width:900px){
+    .s-page{
+        width: 60%;
+    }
+  }
